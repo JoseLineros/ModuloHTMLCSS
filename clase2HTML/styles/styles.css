@@ -1,0 +1,59 @@
+/*
+
+estructura basica de los estilos de CSS
+
+clase/etiqueta {
+    estilo_a_aplicar: propiedad_del_estilo;
+}
+
+*/
+
+/* Estilos generales */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NavBar Styles */
+nav {
+    background-color: #33beff;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Button header styles */
+.btn-header-style {
+    color: #fff;
+    background-color: #37b13d;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;/* espaciado arriba
+    margin-bottom: ; espaciado abajo
+    margin-left: ; espaciado izquierda
+    margin-right: ; espaciado derecha*/ 
+}
+
+/* header container styles */
+.overlay-div {
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.bg-header {
+    background-image: url("../img/burguer-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    opacity: 0.6;
+}
