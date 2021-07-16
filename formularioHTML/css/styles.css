@@ -1,0 +1,172 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.bg-image {
+	background-image: url('https://images.unsplash.com/photo-1554228422-b8d4e6b3fa1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position-y: 50%;
+}
+
+.screen-form {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.form-container {
+	width: 80%;
+	max-width: 600px;
+	min-width: 320px;
+	padding: 3rem;
+	border-radius: 0.4rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header {
+	padding: 1rem 0;
+}
+
+.header-color {
+	color: #2168ec;
+}
+
+.input-container {
+	font-weight: bold;
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-container input {
+	border-radius: 0.4rem;
+	border: 0.1rem solid gray;
+	padding: 0.4rem;
+	margin-top: 0.2rem;
+}
+
+.checkbox-container {
+	margin-top: 1rem;
+}
+
+.btn-login-container {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-login-container button {
+	padding: 0.7rem;
+	background-color: #2168ec;
+	border: 0;
+	border-radius: 0.2rem;
+	color: white;
+	transition: background-color 0.5s;
+	width: 100%;
+}
+
+.btn-login-container button:hover {
+	background-color: #00205c;
+	cursor: pointer;
+}
+
+/* Adicionales */
+.color-registro-acceso {
+	color: green;
+}
+
+.link-registro-acceso {
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.link-registro-acceso a {
+	text-decoration: none;
+	color: black;
+}
+
+.link-registo {
+	text-decoration: none;
+}
+
+/* Formulario de datos */
+.textarea {
+	padding: 0.5rem;
+	border-radius: 0.4rem;
+	border: 0.1rem solid gray;
+}
+
+.input-container-checkbox {
+	padding: 1rem;
+}
+
+.input-container-radio {
+	margin-top: 1rem;
+}
+
+.input-container-radio h3 {
+	margin-bottom: 0.2rem;
+}
+
+.input-radio {
+	padding: 0.2rem;
+}
+
+/* input[type='checkbox']:after {
+	content: '';
+	background-color: red;
+	border-bottom: 10px solid red;
+	border-top: 10px solid red;
+	display: block;
+	opacity: 1;
+} */
+
+.recordar + label {
+	font-style: italic;
+}
+.recordar:checked + label {
+	color: #f00;
+	font-style: normal;
+}
+
+.btn-save-container button {
+	padding: 0.5rem;
+	margin-top: 1rem;
+	background-color: #04207c;
+	border: 0;
+	border-radius: 0.2rem;
+	color: white;
+	transition: background-color 0.5s;
+	width: 100%;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.btn-save-container button:hover {
+	background-color: #3b5ed1;
+}
+
+input {
+	color: gray;
+}
+
+input:focus,
+textarea:focus {
+	color: black;
+	font-style: italic;
+}

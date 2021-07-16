@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulario registro</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body class="bg-image">
+		<!-- Seccion Login -->
+		<section class="screen-form">
+			<div class="bg-white form-container">
+				<form action="#" method="POST">
+					<div>
+						<h1 class="header-color">Formulario de registro</h1>
+					</div>
+
+					<div class="input-container">
+						<label for="name">Nombres</label>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							placeholder="Digite su nombres"
+							autofocus
+						/>
+					</div>
+
+					<div class="input-container">
+						<label for="surnames">Apellidos</label>
+						<input
+							type="text"
+							id="surnames"
+							name="surnames"
+							placeholder="Digite sus apellidos"
+						/>
+					</div>
+
+					<div class="input-container">
+						<label for="email">Correo electronico</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Digite su correo electronico"
+						/>
+					</div>
+
+					<div class="input-container">
+						<label for="age">Edad</label>
+						<input
+							type="number"
+							id="age"
+							name="age"
+							placeholder="Digite tu edad"
+						/>
+					</div>
+
+					<!-- <div class="input-container">
+						<label for="born">Fecha de nacimiento</label>
+						<input
+							type="date"
+							id="born"
+							name="born"
+							placeholder="Fecha de nacimiento"
+						/>
+					</div> -->
+
+					<div class="input-container">
+						<label for="phone">Telefono</label>
+						<input
+							type="number"
+							id="phone"
+							name="phone"
+							placeholder="Digite su numero de telefono"
+						/>
+					</div>
+
+					<div class="input-container-radio">
+						<h4>Selecciona tu genero</h4>
+						<div class="input-radio">
+							<input
+								type="radio"
+								id="masculino"
+								name="grupoA"
+								value="masculino"
+							/>
+							<label for="masculino">Masculino</label>
+						</div>
+						<div class="input-radio">
+							<input
+								type="radio"
+								id="fenemino"
+								name="grupoA"
+								value="femenino"
+							/>
+							<label for="fenemino">Femenino</label>
+						</div>
+					</div>
+
+					<div class="input-container">
+						<label for="descrip-user">
+							Descripcion del usuario
+						</label>
+						<textarea
+							name="textarea"
+							rows="10"
+							cols="20"
+							class="textarea"
+						></textarea>
+					</div>
+
+					<div class="input-container">
+						<label for="password">Contraseña</label>
+						<input
+							type="password"
+							id="password"
+							placeholder="Digite su clave"
+						/>
+					</div>
+
+					<div class="input-container">
+						<label for="confirmPassword">
+							Confirmar Contraseña
+						</label>
+						<input
+							type="password"
+							id="confirmPassword"
+							placeholder="Digite su clave nuevamente"
+						/>
+					</div>
+
+					<!-- <div class="input-container-checkbox">
+						<h3>Selecciona tu habilidades</h3>
+						<input
+							type="checkbox"
+							id="html"
+							name="lenguajes"
+							value="html"
+						/>
+						<label for="html">HTML</label>
+						<input
+							type="checkbox"
+							id="css"
+							name="lenguajes"
+							value="css"
+						/>
+						<label for="css">CSS</label>
+						<input
+							type="checkbox"
+							id="javascript"
+							name="lenguajes"
+							value="javascript"
+						/>
+						<label for="javascript">JAVASCRIPT</label>
+
+						<input
+							type="checkbox"
+							id="vue"
+							name="lenguajes"
+							value="vue"
+						/>
+						<label for="vue">VUE</label>
+
+						<input
+							type="checkbox"
+							id="react"
+							name="lenguajes"
+							value="react"
+						/>
+						<label for="react">REACT</label>
+						<input
+							type="checkbox"
+							id="angular"
+							name="lenguajes"
+							value="angular"
+						/>
+						<label for="angular">ANGULAR</label>
+					</div> -->
+
+					<div class="checkbox-container">
+						<input class="recordar" type="checkbox" id="recordar" />
+						<label for="recordar">
+							Deseas recordar tu contraseña
+						</label>
+					</div>
+
+					<div class="btn-save-container">
+						<button>Registrar</button>
+					</div>
+
+					<div class="link-registro-acceso">
+						<a href="index.html">
+							¿Ya tienes una cuenta?
+							<span class="color-registro-acceso">
+								Inicia sesión aquí
+							</span>
+						</a>
+					</div>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>

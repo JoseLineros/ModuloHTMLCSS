@@ -1,50 +1,73 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iniciar Sesion</title>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body class="bg-image">
+		<!-- Seccion Login -->
+		<section class="screen-form">
+			<div class="bg-white form-container">
+				<form action="#" method="POST">
+					<div class="header">
+						<h1 class="header-color">Iniciar Sesión</h1>
+					</div>
 
-    <!-- Estilos CSS -->
-    <link rel="stylesheet" href="./styles/styles.css" />
-  </head>
-  <body class="bg-matica">
-    <!-- Seccion login -->
-    <section class="screen-form">
-      <!-- Contenedor del formulario -->
-      <div class="bg-white form-container">
-        <form>
-          <!-- Contenedor del titulo -->
-          <div>
-            <h1 class="header-color">Iniciar Sesi&oacute;n</h1>
-          </div>
+					<div class="input-container">
+						<label for="usuario">Usuario</label>
+						<input
+							id="usuario"
+							placeholder="Digite su nombre de usuario"
+						/>
+					</div>
 
-          <!-- Inputs de inicio de sesion-->
-          <div class="input-container">
-            <label for="usuario">Usuario</label>
-            <input type="text" id="usuario" placeholder="Nombre de usuario" />
-          </div>
+					<div class="input-container">
+						<label for="password">Contraseña</label>
+						<input
+							type="text"
+							id="password"
+							placeholder="Digite su clave"
+						/>
+					</div>
 
-          <div class="input-container">
-            <label for="password">Contraseña</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Contraseña de usuario"
-            />
-          </div>
+					<div class="checkbox-container">
+						<input type="checkbox" id="recordar" />
+						<label for="recordar"> Recordar tu contraseña </label>
+					</div>
 
-          <div class="checkbox-container">
-            <input type="checkbox" id="check" />
-            <label for="check">Recordar tu contraseña</label>
-          </div>
+					<!-- <div>
+						<label for="password">HTML</label>
+						<input type="checkbox" name="lenguajes" value="html" />
+						<label for="password">CSS</label>
+						<input type="checkbox" name="lenguajes" value="css" />
+						<label for="password">JAVASCRIPT</label>
+						<input type="checkbox" name="lenguajes" value="js" />
+					</div>
 
-          <div class="btn-login-container">
-            <button type="submit">Iniciar Sesion</button>
-          </div>
-        </form>
-      </div>
-    </section>
-  </body>
+					<div>
+						<label for="password">Masculino</label>
+						<input type="radio" name="grupoA" value="masculino" />
+						<label for="password">Femenino</label>
+						<input type="radio" name="grupoA" value="femenino" />
+					</div> -->
+
+					<div class="btn-login-container">
+						<button>Iniciar Sesion</button>
+					</div>
+
+					<div class="link-registro-acceso">
+						<a href="registro.html">
+							¿Aún no te has registrado?
+							<span class="color-registro-acceso">
+								Registrate aquí
+							</span>
+						</a>
+					</div>
+				</form>
+			</div>
+		</section>
+	</body>
 </html>
